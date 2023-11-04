@@ -1,0 +1,29 @@
+screen {
+  font-family: sans-serif;
+}
+
+.container.darkMode {
+  background-color: grey;
+  color: white;
+}
+
+.header.darkMode {
+  background-color: #333; 
+  color: white;
+}
+
+button {
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header ul {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  gap: 12px;
+}
